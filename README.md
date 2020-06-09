@@ -27,7 +27,7 @@ has specific advised conditions (and restrictions) and thus is not always releva
 <b>Worth mentioning: </b>
 
 Not only we run Bernoulli trials + Dialogues in parallel, we compute the Bernoulli trials themselves (if channel is active) only once (before simulating sessions). The reason for that is that in this case of conducting experiment
-we do not change parameter 'a' (probability of being active) of each channel in any way. Which means that in a long run there is no need to 
+we do not change parameter 'a' (probability of being active) of each channel in any way. Which means that in a long run there is no need to to compute it each session.
 
 This assumption is however not always true/cannot be made because having a chance of 0.5 is NOT THE SAME as being active all the time after having success in the first trial. 
 But since all the activation ratios are the same in this particular example of experiment, this way of computing should be quite accurate in the long run.
