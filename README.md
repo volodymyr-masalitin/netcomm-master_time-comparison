@@ -7,6 +7,6 @@ This repository consists of the following files
  4. visualisation_script.py containing a template of plotting procedures
  5. compare_time.py containing the setup for comparing time of execution of the original and the edited versions of experiment scripts. It can be used to edit the number of iterations (sessions).
 
-<u>How to use/mark:</u> to observe the efficiency of running in parallel please run the <b>compare_time.py</b> file. In order to compare time for another initial preferences please adjust the <b>10-th</b> line of this file: niter = 50
+<b>How to use/mark:</b> to observe the efficiency of running in parallel please run the <b>compare_time.py</b> file. In order to compare time for another initial preferences please adjust the <b>10-th</b> line of this file: niter = 50
 
 
