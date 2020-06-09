@@ -9,8 +9,7 @@ This repository consists of the following files
 
 <b>How to use/mark:</b> to observe the efficiency of running in parallel please run the <b>compare_time.py</b> file. In order different initial preferences please <b>adjust the 10-th</b> line of this file: <i><b>niter = 50</b></i>.
 
-
-
+<br /><br />
 
 <b>Description/reasoning of implementation of multiprocessing:</b>
 
