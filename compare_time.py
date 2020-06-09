@@ -23,7 +23,7 @@ if __name__ == '__main__':
     
 # run original experiment (without multiprocessing) and measure time
     start_time_orig = time.perf_counter()
-    #exec(open('experiment_script_original.py').read())
+    exec(open('experiment_script_original.py').read())
     finish_time_multi = time.perf_counter()
     
     run_time_orig = finish_time_multi - start_time_multi
